@@ -42,8 +42,7 @@ const Projects = () => {
             />
             <h3 className="text-black font-semibold text-center mt-4">My Personal Portfolio</h3>
             <p className="text-black">
-            FriendFeed is a Social Networking Site built using PHP
-            </p>
+            FriendFeed is a social networking site that allows you to manage your profile, view and upload posts, find people, and send messages. It also includes user authentication.      </p>
             <br></br>
             <p className='text-black'><strong>Technologies used :</strong>Php , MySQL , HTML , CSS</p>
             <a
