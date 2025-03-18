@@ -40,7 +40,7 @@ const Projects = () => {
               width={270}
               className="rounded-lg object-cover ml-44 border-2 border-black" 
             />
-            <h3 className="text-black font-semibold text-center mt-4">My Personal Portfolio</h3>
+            <h3 className="text-black font-semibold text-center mt-4">Social Networking Site </h3>
             <p className="text-black">
             FriendFeed is a social networking site that allows you to manage your profile, view and upload posts, find people, and send messages. It also includes user authentication.      </p>
             <br></br>
