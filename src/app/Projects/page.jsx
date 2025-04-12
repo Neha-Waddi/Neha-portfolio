@@ -30,7 +30,7 @@ const Projects = () => {
             My <span className="text-cyan-400">Projects</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Here's a collection of my work that showcases my skills and experience.
+            Here is a collection of my work that showcases my skills and experience.
           </p>
         </section>
 
