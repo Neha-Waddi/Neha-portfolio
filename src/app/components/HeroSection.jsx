@@ -20,7 +20,7 @@ const HeroSection = () => {
 
       <h1 className="text-4xl lg:text-6xl font-bold mb-4 z-10">
         <TypeAnimation
-          className="inline-block bg-clip-text text-transparent bg-cyan-400" // Changed gradient for better visibility
+          className="inline-block bg-clip-text text-transparent bg-black" // Changed gradient for better visibility
           sequence={["Hello", 1000, "I'M Neha Waddi", 1000]}
           wrapper="span"
           speed={30}
