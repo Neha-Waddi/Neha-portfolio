@@ -8,19 +8,8 @@ const Projects = () => {
     <div className="min-h-screen relative overflow-hidden">
       <Navbar />
       
-      <div className="fixed inset-0 -z-10 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-purple-900 to-violet-900 opacity-100"></div>
-        <div className="absolute top-0 left-0 w-full h-full">
-          <video
-            autoPlay
-            muted
-            loop
-            className="w-full h-full object-cover opacity-30"
-          >
-            <source src="/images/video-background.mp4" type="video/mp4" />
-          </video>
-        </div>
-      </div>
+            <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-purple-900 to-violet-900 z-0"></div>
+
 
       <div className="container mx-auto px-40 py-16 relative z-10">
         <section className="text-center mb-20 animate-fade-in">

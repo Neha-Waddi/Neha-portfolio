@@ -19,7 +19,7 @@ export default function Home() {
     return (
         <main className="flex min-h-screen bg-[#ffffff]">
             <Navbar />
-            <div className="flex-1 ml-64 md:ml-0"> {/* Adjust margin to account for navbar width */}
+            <div className="flex-1 ml-64 md:ml-0"> 
                 <div className="container mx-auto px-12 py-6">
                     <HeroSection />
                 </div>
