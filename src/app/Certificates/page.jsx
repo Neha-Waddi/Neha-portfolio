@@ -23,7 +23,6 @@ const Certifications = () => {
 
 
       <div className="container mx-auto px-40 py-16 relative z-10">
-        {/* Certifications Header */}
         <section className="text-center mb-12 animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             My <span className="text-cyan-400">Certifications</span>
@@ -33,7 +32,6 @@ const Certifications = () => {
           </p>
         </section>
 
-        {/* Certifications Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
           {certifications.map((cert, index) => (
             <div 
@@ -41,10 +39,8 @@ const Certifications = () => {
               className="group relative animate-slide-up"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              {/* Glow Effect */}
               <div className="absolute -inset-1 bg-cyan-500 rounded-xl blur opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
               
-              {/* Certification Card */}
               <div className="relative h-full overflow-hidden rounded-xl border border-white/20 bg-white/5 backdrop-blur-sm transition-all duration-300 group-hover:border-cyan-400/50 group-hover:shadow-lg group-hover:shadow-cyan-500/20">
                 <Image
                   src={cert.src}
@@ -54,7 +50,6 @@ const Certifications = () => {
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 
-                {/* Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                   <h3 className="text-white text-lg font-medium translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                     {cert.alt}
@@ -65,8 +60,6 @@ const Certifications = () => {
           ))}
         </div>
       </div>
-
-      {/* Global Styles */}
       <style jsx global>{`
         @keyframes fade-in {
           from { opacity: 0; }
