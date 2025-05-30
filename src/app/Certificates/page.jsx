@@ -12,7 +12,8 @@ const Certifications = () => {
     { src: "/images/Screenshot 2024-05-19 173406.png", alt: "JavaScript" },
     { src: "/images/Screenshot 2024-05-19 174630.png", alt: "Python" },
     { src: "/images/Screenshot 2024-05-19 174706.png", alt: "" },
-    { src: "/images/Screenshot 2024-05-19 174732.png", alt: "" }
+    { src: "/images/Screenshot 2024-05-19 174732.png", alt: "" },
+    {src:"/images/codeclash.jpg",alt:""}
   ];
 
   return (
