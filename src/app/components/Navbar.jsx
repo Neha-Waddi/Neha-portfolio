@@ -41,10 +41,15 @@ const Navlinks = () => {
                     </Link>
                 </div>
                 <div className="p-6 border-b border-gray-200 h-24 flex items-center justify-center">
-                    <Link href="/" className="text-sm font-bold text-gray-800 [writing-mode:vertical-rl] rotate-180 relative group transform hover:scale-110 transition-transform duration-100 hover:text-black hover:text-xl">
-                        Resume
-                    </Link>
-                </div>
+  <a 
+    href="/Neha_v2-resume.pdf" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="text-sm font-bold text-gray-800 [writing-mode:vertical-rl] rotate-180 relative group transform hover:scale-110 transition-transform duration-100 hover:text-black hover:text-xl"
+  >
+    Resume
+  </a>
+</div>
         </div>
     );
 };
